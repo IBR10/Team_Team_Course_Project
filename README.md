@@ -1,6 +1,5 @@
 # Team_Team_Course_Project
 
-
 Course Project - GitHub Page: 
 The final deliverable of your course project is your GitHub Page.  This will build substantially off of your team's submissions for the previous assignments.
 
@@ -38,15 +37,17 @@ After orthogroup inference, OrthoFinder aligns genes in orthogroups, infers gene
 
 4. A brief description of your Notebook tutorial that demonstrates how the chosen computational tools can be applied to the analysis of the biological phenomenon under investigation.
 
-
+Our notebook tutorial instructs how to install orthofinder and takes the example datasets provided for 4-6 different species of mycoplasma and several different gene sequences (very large datasets) and analyzes their orthological relations, including orthogroups, phylogenetic trees, speciation events, etc. 
 
 5. Presentation and discussion of a few results that your group has obtained by using the software package.  For example, you could demonstrate and explain results that you were able to reproduce from a publication using the software.
 
-
+By using the software package, we were able to extract orthological relations between the original four species of mycoplasma explored, specifically discovering 599 orthogroups, with 274 orthogroups containing all four species. Out of 2733 genes analyzed, 2216 were assigned to an orthogroup (81.1%). We were also able to generate rooted species trees to group *M. gallisepticum* with *M. genitalium* and *M. hyopneumoniae* with *M. agalactiae*.
 
 6. A summary and conclusion.
 
+OrthoFinder is a practical tool for comparative genomics because it turns protein FASTA files into evolutionary relationships among genes and species. For our tutorial dataset, it successfully assigned most genes into orthogroups and produced interpretable ortholog, duplication, and species tree outputs.
 
+The main takeaway is that OrthoFinder is most useful when the biological question is evolutionary: which genes are shared, duplicated, lost, or expanded across a set of species?
 
 7. Bibliography and acknowledgements of any assistance you received in completing the project.
 
